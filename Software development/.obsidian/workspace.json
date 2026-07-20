@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "08c9c2ac12bf069a",
+    "type": "split",
+    "children": [
+      {
+        "id": "e97bcf20f7d47abd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "846f413a5ac23d4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLD/What is LLD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What is LLD"
+            }
+          },
+          {
+            "id": "2df7cb5371118623",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ALGORITHMS/Relevance Scoring (BM25 Algorithm).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Relevance Scoring (BM25 Algorithm)"
+            }
+          },
+          {
+            "id": "4cf504ed58673f70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Full-text search optimization (ElasticSearch vs RDBMS)"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a10ddc03dd894d3a",
+    "type": "split",
+    "children": [
+      {
+        "id": "64d7dd290c0426df",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7918766d3d9f112b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "545f896bd694e807",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6c9fe6ccf0077912",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b9e7d1fcfa2a9932",
+    "type": "split",
+    "children": [
+      {
+        "id": "37152edecfb13826",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2dac288950d8dfb2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Full-text search optimization (ElasticSearch vs RDBMS)"
+            }
+          },
+          {
+            "id": "c1407281f6bbb265",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "LOCKS/Pessimistic Lock.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Pessimistic Lock"
+            }
+          },
+          {
+            "id": "86a69692df26a60d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "fd1727d5d95ad4d5",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "62064cb1d09739cd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "LOCKS/Pessimistic Lock.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Pessimistic Lock"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "7918766d3d9f112b",
+  "lastOpenFiles": [
+    "LLD/Design Patterns/Behavioral",
+    "LLD/Design Patterns/Structural",
+    "LLD/Design Patterns/Creational",
+    "LLD/Design Patterns/Untitled.md",
+    "LLD/What is LLD.md",
+    "LLD/Design Patterns",
+    "Images/Pasted image 20260719235801.png",
+    "Images/Pasted image 20260719235448.png",
+    "LLD/Principles of OOP.md",
+    "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
+    "ALGORITHMS/Relevance Scoring (BM25 Algorithm).md",
+    "PROBLEMS/Double Booking.md",
+    "LLD",
+    "Inverted Index.md",
+    "TEMPLATES/TEMPLATE.md",
+    "Images/altair-prevent-split-brain.png",
+    "Images/detect-false-positive.png",
+    "PROBLEMS/MySQL High Availability (HA).md",
+    "Field Boosting.md",
+    "ALGORITHMS/Levenshtein distance.md",
+    "TEMPLATES/TEMPLATE-2.md",
+    "ALGORITHMS",
+    "TEMPLATES",
+    "PROBLEMS/Typo Tolerance.md",
+    "SQL/FOR-UPDATE.md",
+    "Images/high-availability-architecture.png",
+    "Images",
+    "Images/split-brain-mysql.png",
+    "Pasted image 20251225235656.png",
+    "LOCKS/Virtual waiting queue.md",
+    "Images/failover-process.png",
+    "Images/terminated-vs-stopped.png",
+    "Images/failure-detection.png",
+    "SQL/Safety & Idempotency checklist.md",
+    "LOCKS/Pessimistic Lock.md",
+    "LOCKS/In-Memory Distributed Locking.md",
+    "LOCKS/Optimistic Lock.md",
+    "JARGONS/Contention.md",
+    "SQL",
+    "JARGONS",
+    "PROBLEMS",
+    "Welcome.md"
+  ]
+}
