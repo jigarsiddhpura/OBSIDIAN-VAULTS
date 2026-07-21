@@ -1,0 +1,2 @@
+
+**Exponential Moving Average:** It's similar to the Simple Moving Average (SMA) you used for volume, but with one key difference: EMA gives **more weight to recent prices**, so it reacts faster to new price changes. SMA treats all 20 (or however many) days equally; EMA treats yesterday and today as more important than a data point from 3 weeks ago. That's why MACD uses EMA instead of SMA — it needs to be quick to react for trend/momentum signals.
