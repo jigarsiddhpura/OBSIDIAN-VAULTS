@@ -19,6 +19,8 @@
 
 ![[Pasted image 20260722012619.png]]
 
+(scenario - **Histogram shrinking even though price is still rising)
+![[Pasted image 20260725014647.png]]
 **How to read what shows up:**
 
 - **MACD line (usually blue)** = the difference between the 12 EMA and 26 EMA.
@@ -30,3 +32,9 @@
 - **MACD line crosses above Signal line** → bullish, trend confirming upward momentum.
 - **MACD line crosses below Signal line** → bearish, trend confirming downward momentum.
 - **Histogram flipping from red to green (or shrinking red bars)** → early hint that a bullish crossover may be coming soon.
+
+### Analysis ⭐
+
+![[Pasted image 20260725023125.png]]
+
+MACD line (17.81) is above signal (16.15), both positive, histogram positive — a bullish setup. But compare the _magnitude_ to October 2025, where MACD spiked past 40 before rolling over into deeply negative territory during the crash. Today's 17.81 is well below that prior euphoric extreme, meaning there's technically room before this rally reaches "stretched" levels last time. Momentum is still building, not yet exhausted.
