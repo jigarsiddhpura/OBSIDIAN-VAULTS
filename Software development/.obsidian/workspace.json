@@ -22,17 +22,17 @@
             }
           },
           {
-            "id": "2df7cb5371118623",
+            "id": "4a938d0db6e07ae0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ALGORITHMS/Relevance Scoring (BM25 Algorithm).md",
+                "file": "LLD/What is LLD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Relevance Scoring (BM25 Algorithm)"
+              "title": "What is LLD"
             }
           },
           {
@@ -41,15 +41,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
+                "file": "LLD/Design Patterns/Behavioral/strategy-pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Full-text search optimization (ElasticSearch vs RDBMS)"
+              "title": "strategy-pattern"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -69,7 +70,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": true,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -213,16 +216,27 @@
   },
   "active": "7918766d3d9f112b",
   "lastOpenFiles": [
+    "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
+    "Images/Pasted image 20260802235420.png",
+    "LLD/Design Patterns/Behavioral/strategy-pattern.md",
+    "LLD/What is LLD.md",
+    "Images/Pasted image 20260802195659.png",
+    "Pasted image 20260802195612.png",
+    "LLD/SOLID/Liskov Substitution Principle.md",
+    "LLD/SOLID/Dependency Inversion Principle.md",
+    "LLD/SOLID/Interface Segregation Principle.md",
+    "LLD/SOLID/Open or Closed Principle (OCP).md",
+    "LLD/SOLID/Single Responsibility Principle (SRP).md",
+    "LLD/Principles of OOP.md",
+    "Untitled.md",
+    "LLD/SOLID",
     "LLD/Design Patterns/Behavioral",
     "LLD/Design Patterns/Structural",
     "LLD/Design Patterns/Creational",
     "LLD/Design Patterns/Untitled.md",
-    "LLD/What is LLD.md",
     "LLD/Design Patterns",
     "Images/Pasted image 20260719235801.png",
     "Images/Pasted image 20260719235448.png",
-    "LLD/Principles of OOP.md",
-    "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
     "ALGORITHMS/Relevance Scoring (BM25 Algorithm).md",
     "PROBLEMS/Double Booking.md",
     "LLD",
@@ -243,17 +257,9 @@
     "Images/split-brain-mysql.png",
     "Pasted image 20251225235656.png",
     "LOCKS/Virtual waiting queue.md",
-    "Images/failover-process.png",
-    "Images/terminated-vs-stopped.png",
-    "Images/failure-detection.png",
     "SQL/Safety & Idempotency checklist.md",
     "LOCKS/Pessimistic Lock.md",
     "LOCKS/In-Memory Distributed Locking.md",
-    "LOCKS/Optimistic Lock.md",
-    "JARGONS/Contention.md",
-    "SQL",
-    "JARGONS",
-    "PROBLEMS",
-    "Welcome.md"
+    "SQL"
   ]
 }

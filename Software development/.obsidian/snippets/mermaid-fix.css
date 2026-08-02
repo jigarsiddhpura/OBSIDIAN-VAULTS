@@ -1,0 +1,9 @@
+.mermaid svg {
+  max-width: none !important;
+  width: auto !important;
+  height: auto !important;
+}
+
+.block-language-mermaid {
+  overflow-x: auto !important;
+}

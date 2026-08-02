@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 Phases (Wyckoff market cycle).md",
+                "file": "Indicators/MACD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4 Phases (Wyckoff market cycle)"
+              "title": "MACD"
             }
           }
         ]
@@ -185,14 +185,16 @@
   },
   "active": "ee204dd1db2ab86a",
   "lastOpenFiles": [
+    "Indicators/RSI.md",
     "Indicators/MACD.md",
+    "4 Phases (Wyckoff market cycle).md",
+    "Indicators/Volume.md",
+    "Moving Average/RSI-MA.md",
+    "Moving Average/EMA.md",
+    "Moving Average/50 DMA & 200 DMA.md",
     "Images/Pasted image 20260725023125.png",
     "Pasted image 20260725022754.png",
-    "Moving Average/EMA.md",
     "Images/Pasted image 20260725022523.png",
-    "Indicators/RSI.md",
-    "Moving Average/50 DMA & 200 DMA.md",
-    "4 Phases (Wyckoff market cycle).md",
     "Images/Pasted image 20260725021836.png",
     "Pasted image 20260725021535.png",
     "Ratios/PE TTM.md",
@@ -201,9 +203,7 @@
     "Links",
     "Images/Pasted image 20260725014647.png",
     "Images/Pasted image 20260725014316.png",
-    "Indicators/Volume.md",
     "Images/Pasted image 20260722013732.png",
-    "Moving Average/RSI-MA.md",
     "Images/Pasted image 20260722013058.png",
     "Pasted image 20260722013013.png",
     "Images",

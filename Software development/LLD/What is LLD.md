@@ -57,7 +57,7 @@ Decides **how classes/objects are arranged** so a bigger problem is solved in a 
 
 Decides **how objects communicate/interact** and how responsibility is distributed once the skeleton (structure) exists.
 
-- State, Strategy, Observer, Chain of Responsibility, Template, Iterator, Interpreter, Command, Visitor, Mediator, Memento, Null Object
+- State, [[strategy-pattern]], Observer, Chain of Responsibility, Template, Iterator, Interpreter, Command, Visitor, Mediator, Memento, Null Object
 - Analogy: Class2 needs to talk to Class3 — does it call directly, or go through an orchestrator class? That coordination style is what behavioral patterns govern.
 
 
@@ -66,6 +66,8 @@ Decides **how objects communicate/interact** and how responsibility is distribut
 ## 3. "Has-a" vs "Is-a" Relationships
 
 This is called out as the most common source of confusion.
+
+![[Pasted image 20260802195659.png]]
 
 ### 3.1 Is-a → Inheritance
 
