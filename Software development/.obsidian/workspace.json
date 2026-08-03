@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e97bcf20f7d47abd",
+        "id": "d8b29e70cd530da0",
         "type": "tabs",
         "children": [
           {
-            "id": "846f413a5ac23d4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLD/What is LLD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "What is LLD"
-            }
-          },
-          {
-            "id": "4a938d0db6e07ae0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLD/What is LLD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "What is LLD"
-            }
-          },
-          {
-            "id": "4cf504ed58673f70",
+            "id": "6d385bd08dd91610",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -48,9 +20,22 @@
               "icon": "lucide-file",
               "title": "strategy-pattern"
             }
+          },
+          {
+            "id": "f43c7282e09ddb22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LLD/What is LLD.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "What is LLD"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,12 +199,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "7918766d3d9f112b",
+  "active": "6d385bd08dd91610",
   "lastOpenFiles": [
+    "LLD/What is LLD.md",
+    "LLD/Design Patterns/Behavioral/strategy-pattern.md",
+    "LLD/Principles of OOP.md",
+    "LLD/CODE/StrategyPattern/WithStrategy/Main.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/OffRoadVehicle.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/OffRoadVehicle.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/SportsVehicle.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/SportsVehicle.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/Vehicle.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/PassengerVehicle.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/NormalDriveStrategy.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/SportsDriveStrategy.java",
+    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/DriveStrategy.java",
+    "LLD/CODE/patterns/HELP.md",
     "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
     "Images/Pasted image 20260802235420.png",
-    "LLD/Design Patterns/Behavioral/strategy-pattern.md",
-    "LLD/What is LLD.md",
     "Images/Pasted image 20260802195659.png",
     "Pasted image 20260802195612.png",
     "LLD/SOLID/Liskov Substitution Principle.md",
@@ -227,19 +224,12 @@
     "LLD/SOLID/Interface Segregation Principle.md",
     "LLD/SOLID/Open or Closed Principle (OCP).md",
     "LLD/SOLID/Single Responsibility Principle (SRP).md",
-    "LLD/Principles of OOP.md",
     "Untitled.md",
-    "LLD/SOLID",
-    "LLD/Design Patterns/Behavioral",
-    "LLD/Design Patterns/Structural",
-    "LLD/Design Patterns/Creational",
     "LLD/Design Patterns/Untitled.md",
-    "LLD/Design Patterns",
     "Images/Pasted image 20260719235801.png",
     "Images/Pasted image 20260719235448.png",
     "ALGORITHMS/Relevance Scoring (BM25 Algorithm).md",
     "PROBLEMS/Double Booking.md",
-    "LLD",
     "Inverted Index.md",
     "TEMPLATES/TEMPLATE.md",
     "Images/altair-prevent-split-brain.png",
@@ -248,18 +238,13 @@
     "Field Boosting.md",
     "ALGORITHMS/Levenshtein distance.md",
     "TEMPLATES/TEMPLATE-2.md",
-    "ALGORITHMS",
-    "TEMPLATES",
     "PROBLEMS/Typo Tolerance.md",
     "SQL/FOR-UPDATE.md",
     "Images/high-availability-architecture.png",
-    "Images",
     "Images/split-brain-mysql.png",
     "Pasted image 20251225235656.png",
     "LOCKS/Virtual waiting queue.md",
     "SQL/Safety & Idempotency checklist.md",
-    "LOCKS/Pessimistic Lock.md",
-    "LOCKS/In-Memory Distributed Locking.md",
-    "SQL"
+    "LOCKS/Pessimistic Lock.md"
   ]
 }
