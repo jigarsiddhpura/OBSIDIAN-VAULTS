@@ -1,5 +1,3 @@
 {
-  "enabledCssSnippets": [
-    "mermaid-fix"
-  ]
+  "enabledCssSnippets": []
 }

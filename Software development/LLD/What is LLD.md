@@ -57,7 +57,7 @@ Decides **how classes/objects are arranged** so a bigger problem is solved in a 
 
 Decides **how objects communicate/interact** and how responsibility is distributed once the skeleton (structure) exists.
 
-- State, [[strategy-pattern]], Observer, Chain of Responsibility, Template, Iterator, Interpreter, Command, Visitor, Mediator, Memento, Null Object
+- State, [[strategy-pattern]], [[observer-pattern]], Chain of Responsibility, Template, Iterator, Interpreter, Command, Visitor, Mediator, Memento, Null Object
 - Analogy: Class2 needs to talk to Class3 — does it call directly, or go through an orchestrator class? That coordination style is what behavioral patterns govern.
 
 

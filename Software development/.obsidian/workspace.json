@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLD/Design Patterns/Behavioral/strategy-pattern.md",
+                "file": "LLD/Design Patterns/Behavioral/observer-pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "strategy-pattern"
+              "title": "observer-pattern"
             }
           },
           {
@@ -201,19 +201,20 @@
   },
   "active": "6d385bd08dd91610",
   "lastOpenFiles": [
-    "LLD/What is LLD.md",
     "LLD/Design Patterns/Behavioral/strategy-pattern.md",
+    "LLD/Design Patterns/Behavioral/observer-pattern.md",
+    "LLD/CODE/ObserverPattern/Store.java",
+    "LLD/CODE/ObserverPattern/Observer/MobileAlertObserverImpl.java",
+    "LLD/CODE/ObserverPattern/Observer/EmailAlertObserverImpl.java",
+    "LLD/CODE/ObserverPattern/Observable/IphoneObservableImpl.java",
+    "LLD/CODE/ObserverPattern/Observable/sObservableImpl.java",
+    "LLD/CODE/ObserverPattern/Observable/StocksObservableImpl.java",
+    "LLD/CODE/ObserverPattern/Observer/NotificationAlertObserver.java",
+    "LLD/CODE/ObserverPattern/Observable/StocksObservable.java",
+    "LLD/CODE/ObserverPattern/Observer/Observer.java",
+    "LLD/CODE/ObserverPattern/Observable/Observable.java",
+    "LLD/What is LLD.md",
     "LLD/Principles of OOP.md",
-    "LLD/CODE/StrategyPattern/WithStrategy/Main.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/OffRoadVehicle.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/OffRoadVehicle.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/SportsVehicle.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/SportsVehicle.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/Vehicle.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/PassengerVehicle.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/NormalDriveStrategy.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/SportsDriveStrategy.java",
-    "LLD/CODE/StrategyPattern/WithStrategy/Strategy/DriveStrategy.java",
     "LLD/CODE/patterns/HELP.md",
     "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
     "Images/Pasted image 20260802235420.png",
@@ -244,7 +245,6 @@
     "Images/split-brain-mysql.png",
     "Pasted image 20251225235656.png",
     "LOCKS/Virtual waiting queue.md",
-    "SQL/Safety & Idempotency checklist.md",
-    "LOCKS/Pessimistic Lock.md"
+    "SQL/Safety & Idempotency checklist.md"
   ]
 }
