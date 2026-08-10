@@ -50,7 +50,7 @@ public class ConfigManager {
 
 Decides **how classes/objects are arranged** so a bigger problem is solved in a flexible way.
 
-- Decorator, Proxy, Composite, Adapter, Bridge, Facade, Flyweight
+- [[decorator-pattern]], Proxy, Composite, Adapter, Bridge, Facade, Flyweight
 - Analogy: building a car — wheel, engine, headlights, steering are separate objects; structural patterns decide how they're wired together into "a car."
 
 ### 2.3 Behavioral — _how the skeleton behaves_

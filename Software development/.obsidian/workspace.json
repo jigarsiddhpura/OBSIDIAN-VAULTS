@@ -13,26 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLD/Design Patterns/Behavioral/observer-pattern.md",
+                "file": "LLD/Design Patterns/Creational/factory-and-abstract-factory pattern.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "observer-pattern"
-            }
-          },
-          {
-            "id": "f43c7282e09ddb22",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LLD/What is LLD.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "What is LLD"
+              "title": "factory-and-abstract-factory pattern"
             }
           }
         ]
@@ -201,19 +187,23 @@
   },
   "active": "6d385bd08dd91610",
   "lastOpenFiles": [
-    "LLD/Design Patterns/Behavioral/strategy-pattern.md",
-    "LLD/Design Patterns/Behavioral/observer-pattern.md",
-    "LLD/CODE/ObserverPattern/Store.java",
-    "LLD/CODE/ObserverPattern/Observer/MobileAlertObserverImpl.java",
-    "LLD/CODE/ObserverPattern/Observer/EmailAlertObserverImpl.java",
-    "LLD/CODE/ObserverPattern/Observable/IphoneObservableImpl.java",
-    "LLD/CODE/ObserverPattern/Observable/sObservableImpl.java",
-    "LLD/CODE/ObserverPattern/Observable/StocksObservableImpl.java",
-    "LLD/CODE/ObserverPattern/Observer/NotificationAlertObserver.java",
-    "LLD/CODE/ObserverPattern/Observable/StocksObservable.java",
-    "LLD/CODE/ObserverPattern/Observer/Observer.java",
-    "LLD/CODE/ObserverPattern/Observable/Observable.java",
+    "LLD/CODE/FactoryPattern/AbstractFactoryUsingFactoryMethod/Main.java",
+    "LLD/CODE/FactoryPattern/AbstractFactoryUsingFactoryMethod",
+    "LLD/CODE/FactoryPattern/AbstractFactoryUsingSimpleFactory/Main.java",
+    "LLD/CODE/FactoryPattern/AbstractFactoryUsingSimpleFactory",
+    "LLD/CODE/FactoryPattern/FactoryMethodPattern/Main.java",
+    "LLD/CODE/FactoryPattern/FactoryMethodPattern",
+    "LLD/CODE/FactoryPattern/SimpleFactoryPattern/Main.java",
+    "LLD/CODE/FactoryPattern/SimpleFactoryPattern",
+    "LLD/CODE/FactoryPattern",
+    "LLD/Design Patterns/Creational/abstract-factory-pattern.md",
+    "LLD/Design Patterns/Creational/factory-and-abstract-factory pattern.md",
     "LLD/What is LLD.md",
+    "LLD/Design Patterns/Structural/decorator-pattern.md",
+    "LLD/Design Patterns/Behavioral/observer-pattern.md",
+    "LLD/Design Patterns/Behavioral/strategy-pattern.md",
+    "LLD/CODE/DecoratorPattern/Main.java",
+    "LLD/CODE/DecoratorPattern/ExtraCheese.java",
     "LLD/Principles of OOP.md",
     "LLD/CODE/patterns/HELP.md",
     "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
@@ -240,11 +230,8 @@
     "ALGORITHMS/Levenshtein distance.md",
     "TEMPLATES/TEMPLATE-2.md",
     "PROBLEMS/Typo Tolerance.md",
-    "SQL/FOR-UPDATE.md",
     "Images/high-availability-architecture.png",
     "Images/split-brain-mysql.png",
-    "Pasted image 20251225235656.png",
-    "LOCKS/Virtual waiting queue.md",
-    "SQL/Safety & Idempotency checklist.md"
+    "Pasted image 20251225235656.png"
   ]
 }

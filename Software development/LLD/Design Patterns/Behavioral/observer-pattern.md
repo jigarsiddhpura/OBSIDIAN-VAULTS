@@ -74,7 +74,7 @@ classDiagram
 
 ## 3. The Key Design Decision: How Does `update()` Get Data?
 
-This is the part of the transcript worth calling out — it's the difference between a textbook-correct implementation and a _clean_ one.
+It's the difference between a textbook-correct implementation and a _clean_ one.
 
 ### ❌ Naive approach: pass the Observable into `update()`
 
@@ -212,7 +212,7 @@ stockCount:  15  →  0         (no notify in this design — only OOS→availab
 
 ## 6. Notification Fan-out (Multi-channel)
 
-The transcript extends this further: a single "Notify Me" click can subscribe a user via **either** Email **or** Mobile (or both) — modeled simply by instantiating the right `Observer` subclass and injecting it into `Product`. No changes needed to `Product` itself — this is the pattern's core value: **Observable is closed for modification, open for extension** (new observer types can be added freely).
+A single "Notify Me" click can subscribe a user via **either** Email **or** Mobile (or both) — modeled simply by instantiating the right `Observer` subclass and injecting it into `Product`. No changes needed to `Product` itself — this is the pattern's core value: **Observable is closed for modification, open for extension** (new observer types can be added freely).
 
 ```mermaid
 flowchart LR
