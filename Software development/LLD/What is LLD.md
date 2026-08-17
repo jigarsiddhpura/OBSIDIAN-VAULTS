@@ -31,7 +31,7 @@ LLD patterns fall into three buckets. Knowing the _pattern names_ is optional �
 
 Decides **how/when objects get created**.
 
-- Singleton, Builder, Factory, Abstract Factory, Object Pool, Prototype
+- Singleton, Builder, [[factory-and-abstract-factory pattern]], Object Pool, Prototype
 - **Singleton** — no matter how many callers ask for an object, only one instance ever exists and is shared.
 - **Builder** — object is constructed step-by-step instead of all at once.
 

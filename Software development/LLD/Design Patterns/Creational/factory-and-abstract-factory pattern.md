@@ -75,43 +75,6 @@ classDiagram
 
 One factory class, one **static** method, one big `if-else`/`switch` that decides which concrete product to instantiate. It's static because you need to obtain a shape _before_ you have any object to call the method on — there's nothing to invoke it against yet.
 
-### Java
-
-```java
-public interface Shape {
-    void draw();
-}
-
-public class Circle implements Shape {
-    private final double radius;
-    public Circle(double radius) { this.radius = radius; }
-    @Override public void draw() { System.out.println("Drawing circle r=" + radius); }
-}
-
-public class Square implements Shape {
-    private final double side;
-    public Square(double side) { this.side = side; }
-    @Override public void draw() { System.out.println("Drawing square side=" + side); }
-}
-
-public enum ShapeType { CIRCLE, SQUARE }
-
-public class ShapeFactory {
-    // static -> callable without instantiating ShapeFactory itself
-    public static Shape createShape(ShapeType type) {
-        switch (type) {
-            case CIRCLE: return new Circle(5.0);
-            case SQUARE: return new Square(4.0);
-            default: throw new IllegalArgumentException("Unknown shape type: " + type);
-        }
-    }
-}
-
-// Client
-Shape shape = ShapeFactory.createShape(ShapeType.CIRCLE);
-shape.draw();
-```
-
 > [!tip] Engineering note Use an **`enum`** for the discriminator, not a raw `String`. The transcript mentions "it could be a string, or an enum" — in production, always prefer the enum. It gives you compile-time safety and kills an entire class of typo bugs (`"crcle"` vs `"circle"`) that a `String`-keyed switch will happily let through until runtime.
 
 ### What changed for the caller
@@ -198,43 +161,6 @@ classDiagram
     ShapeFactoryProvider ..> SquareFactory : returns
 ```
 
-### Java
-
-```java
-public abstract class ShapeFactory {
-    // Factory Method — overridden by each concrete factory
-    public abstract Shape createShape();
-}
-
-public class CircleFactory extends ShapeFactory {
-    @Override
-    public Shape createShape() {
-        return new Circle(5.0);   // complex creation logic lives ONLY here
-    }
-}
-
-public class SquareFactory extends ShapeFactory {
-    @Override
-    public Shape createShape() {
-        return new Square(4.0);   // complex creation logic lives ONLY here
-    }
-}
-
-public class ShapeFactoryProvider {
-    public static ShapeFactory getShapeFactory(ShapeType type) {
-        switch (type) {
-            case CIRCLE: return new CircleFactory();
-            case SQUARE: return new SquareFactory();
-            default: throw new IllegalArgumentException("Unknown shape type: " + type);
-        }
-    }
-}
-
-// Client
-ShapeFactory factory = ShapeFactoryProvider.getShapeFactory(ShapeType.CIRCLE);
-Shape shape = factory.createShape();
-shape.draw();
-```
 
 ### What actually improved
 
@@ -303,37 +229,7 @@ classDiagram
     CarExteriorFactory ..> LuxuryExterior : creates
 ```
 
-```java
-public interface CarInterior { void assemble(); }
-public class EconomyInterior implements CarInterior {
-    @Override public void assemble() { System.out.println("Economy interior"); }
-}
-public class LuxuryInterior implements CarInterior {
-    @Override public void assemble() { System.out.println("Luxury interior"); }
-}
 
-public class CarInteriorFactory {
-    public static CarInterior getInterior(String type) {
-        if (type.equals("economy")) return new EconomyInterior();
-        if (type.equals("luxury"))  return new LuxuryInterior();
-        throw new IllegalArgumentException("Unknown interior type: " + type);
-    }
-}
-
-// CarExterior / CarExteriorFactory mirror the above structure.
-
-// The "factory of factories"
-public class CarProducerFactory {
-    public static Object getFactory(String choice) {
-        if (choice.equals("interior")) return new CarInteriorFactory();
-        if (choice.equals("exterior")) return new CarExteriorFactory();
-        throw new IllegalArgumentException("Unknown factory choice: " + choice);
-    }
-}
-
-// Client
-CarInterior luxuryInterior = CarInteriorFactory.getInterior("luxury");
-```
 
 > [!warning] Senior-review flag on Variant A `CarProducerFactory.getFactory()` returning a raw `Object` (as literally shown in the walkthrough) is a code smell — it forces an unsafe downcast at the call site and throws away compile-time type checking. In real code, use **generics** or, better, have `CarInteriorFactory`/`CarExteriorFactory` both implement a common marker interface so `getFactory()` can return a properly typed reference. This variant is pedagogically useful but isn't the one I'd ship — see 4.2 below, which is structurally sound.
 
@@ -380,60 +276,6 @@ classDiagram
 ```
 
 **The grouping is the whole point.** In plain Factory Method, you'd have `CarInteriorFactory` and `CarExteriorFactory` as two independent, unrelated hierarchies — nothing stops a caller from mixing an `EconomyInterior` with a `LuxuryExterior` by mistake. Abstract Factory eliminates that risk structurally: one call to `EconomyCarFactory` can _only_ ever produce economy-grade parts, together, guaranteed.
-
-```java
-public interface CarInterior { void assemble(); }
-public interface CarExterior { void assemble(); }
-
-public class EconomyInterior implements CarInterior {
-    @Override public void assemble() { System.out.println("Economy interior"); }
-}
-public class LuxuryInterior implements CarInterior {
-    @Override public void assemble() { System.out.println("Luxury interior"); }
-}
-public class EconomyExterior implements CarExterior {
-    @Override public void assemble() { System.out.println("Economy exterior"); }
-}
-public class LuxuryExterior implements CarExterior {
-    @Override public void assemble() { System.out.println("Luxury exterior"); }
-}
-
-public abstract class CarFactory {
-    public abstract CarInterior createInterior();
-    public abstract CarExterior createExterior();
-
-    // template-ish convenience method built on top of the abstract factory methods
-    public void produceCompleteVehicle() {
-        CarInterior interior = createInterior();
-        CarExterior exterior = createExterior();
-        interior.assemble();
-        exterior.assemble();
-    }
-}
-
-public class EconomyCarFactory extends CarFactory {
-    @Override public CarInterior createInterior() { return new EconomyInterior(); }
-    @Override public CarExterior createExterior() { return new EconomyExterior(); }
-}
-
-public class LuxuryCarFactory extends CarFactory {
-    @Override public CarInterior createInterior() { return new LuxuryInterior(); }
-    @Override public CarExterior createExterior() { return new LuxuryExterior(); }
-}
-
-// Selection / provider — identical role to ShapeFactoryProvider earlier
-public class CarFactoryProvider {
-    public static CarFactory getFactory(String carType) {
-        if (carType.equals("economy")) return new EconomyCarFactory();
-        if (carType.equals("luxury"))  return new LuxuryCarFactory();
-        throw new IllegalArgumentException("Unknown car type: " + carType);
-    }
-}
-
-// Client
-CarFactory factory = CarFactoryProvider.getFactory("luxury");
-factory.produceCompleteVehicle();   // luxury interior + luxury exterior, guaranteed consistent
-```
 
 ### Grouping visual — Factory Method vs Abstract Factory
 
@@ -494,11 +336,3 @@ flowchart TD
     
 - **"When would you NOT use Abstract Factory?"** When products aren't related / don't need to stay consistent as a family. Introducing Abstract Factory for independent products is needless indirection — a classic over-engineering smell in design interviews.
     
-
----
-
-## 8. Recap
-
-1. **Simple Factory** — one class, static method, `if-else`/`switch`. Fast to write, violates OCP + SRP once things get complex.
-2. **Factory Method** — one factory per product (via inheritance + polymorphism), plus a separate provider for selection. Fixes construction-side SRP/OCP; selection-side OCP violation remains.
-3. **Abstract Factory** — factory of factories; one factory per **family** of related products, guaranteeing internal consistency across that family. Can be layered on Simple Factory (quick, less type-safe) or on Factory Method (canonical GoF form, structurally sound — prefer this in real systems).

@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d8b29e70cd530da0",
+        "id": "6aebdd0c6b2ddf42",
         "type": "tabs",
         "children": [
           {
-            "id": "6d385bd08dd91610",
+            "id": "701bd625d38a430e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLD/Design Patterns/Creational/factory-and-abstract-factory pattern.md",
+                "file": "LLD/Design Problems/Parking Lot.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "factory-and-abstract-factory pattern"
+              "title": "Parking Lot"
             }
           }
         ]
@@ -185,25 +185,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "6d385bd08dd91610",
+  "active": "701bd625d38a430e",
   "lastOpenFiles": [
-    "LLD/CODE/FactoryPattern/AbstractFactoryUsingFactoryMethod/Main.java",
-    "LLD/CODE/FactoryPattern/AbstractFactoryUsingFactoryMethod",
-    "LLD/CODE/FactoryPattern/AbstractFactoryUsingSimpleFactory/Main.java",
-    "LLD/CODE/FactoryPattern/AbstractFactoryUsingSimpleFactory",
-    "LLD/CODE/FactoryPattern/FactoryMethodPattern/Main.java",
-    "LLD/CODE/FactoryPattern/FactoryMethodPattern",
-    "LLD/CODE/FactoryPattern/SimpleFactoryPattern/Main.java",
-    "LLD/CODE/FactoryPattern/SimpleFactoryPattern",
-    "LLD/CODE/FactoryPattern",
-    "LLD/Design Patterns/Creational/abstract-factory-pattern.md",
+    "LLD/CODE/TicTacToe/Main.java",
+    "LLD/CODE/TicTacToe/Model/Cell.java",
+    "LLD/CODE/TicTacToe/Game.java",
+    "LLD/CODE/TicTacToe/Model/Board.java",
+    "LLD/CODE/TicTacToe/Model/Player.java",
+    "LLD/CODE/TicTacToe/Model/PlayingPieceO.java",
+    "LLD/CODE/TicTacToe/Model/PlayingPieceX.java",
+    "LLD/CODE/TicTacToe/Model/PieceType.java",
+    "LLD/CODE/TicTacToe/Model/PlayingPiece.java",
+    "LLD/CODE/TicTacToe/Model",
+    "LLD/CODE/TicTacToe",
+    "factory-and-abstract-factory.md",
+    "LLD/Design Problems/Parking Lot.md",
     "LLD/Design Patterns/Creational/factory-and-abstract-factory pattern.md",
-    "LLD/What is LLD.md",
-    "LLD/Design Patterns/Structural/decorator-pattern.md",
     "LLD/Design Patterns/Behavioral/observer-pattern.md",
     "LLD/Design Patterns/Behavioral/strategy-pattern.md",
-    "LLD/CODE/DecoratorPattern/Main.java",
-    "LLD/CODE/DecoratorPattern/ExtraCheese.java",
+    "LLD/What is LLD.md",
+    "().md",
+    "LLD/Design Patterns/Creational/abstract-factory-pattern.md",
+    "LLD/Design Patterns/Structural/decorator-pattern.md",
     "LLD/Principles of OOP.md",
     "LLD/CODE/patterns/HELP.md",
     "PROBLEMS/Full-text search optimization (ElasticSearch vs RDBMS).md",
@@ -227,9 +230,6 @@
     "Images/detect-false-positive.png",
     "PROBLEMS/MySQL High Availability (HA).md",
     "Field Boosting.md",
-    "ALGORITHMS/Levenshtein distance.md",
-    "TEMPLATES/TEMPLATE-2.md",
-    "PROBLEMS/Typo Tolerance.md",
     "Images/high-availability-architecture.png",
     "Images/split-brain-mysql.png",
     "Pasted image 20251225235656.png"
