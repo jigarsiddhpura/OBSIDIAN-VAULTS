@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LLD/Design Problems/Parking Lot.md",
+                "file": "LLD/Design Problems/Elevator.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Parking Lot"
+              "title": "Elevator"
             }
           }
         ]
@@ -187,6 +187,9 @@
   },
   "active": "701bd625d38a430e",
   "lastOpenFiles": [
+    "LLD/Design Problems/Tic Tac Toe.md",
+    "LLD/Design Problems/Elevator.md",
+    "LLD/Design Problems/Parking Lot.md",
     "LLD/CODE/TicTacToe/Main.java",
     "LLD/CODE/TicTacToe/Model/Cell.java",
     "LLD/CODE/TicTacToe/Game.java",
@@ -197,9 +200,7 @@
     "LLD/CODE/TicTacToe/Model/PieceType.java",
     "LLD/CODE/TicTacToe/Model/PlayingPiece.java",
     "LLD/CODE/TicTacToe/Model",
-    "LLD/CODE/TicTacToe",
     "factory-and-abstract-factory.md",
-    "LLD/Design Problems/Parking Lot.md",
     "LLD/Design Patterns/Creational/factory-and-abstract-factory pattern.md",
     "LLD/Design Patterns/Behavioral/observer-pattern.md",
     "LLD/Design Patterns/Behavioral/strategy-pattern.md",
@@ -229,7 +230,6 @@
     "Images/altair-prevent-split-brain.png",
     "Images/detect-false-positive.png",
     "PROBLEMS/MySQL High Availability (HA).md",
-    "Field Boosting.md",
     "Images/high-availability-architecture.png",
     "Images/split-brain-mysql.png",
     "Pasted image 20251225235656.png"
